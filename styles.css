@@ -394,8 +394,15 @@ img {
   .home__img {
     width: 230px;
   }
+  .home__title{
+    font-size: 5vh;
+  }
 }
-
+@media screen and (max-width: 576px){
+  .home__title{
+    font-size:7vh;}
+}
+  
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
