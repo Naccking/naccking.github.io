@@ -1,0 +1,47 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  background-image: url("background.jpg");
+
+}
+
+.grid {
+	width: 600px;
+	height: 600px;
+	border: solid white 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.invader {
+	border-radius: 10px;
+	content: url("invader.png");
+}
+
+.shooter {
+	content: url("shooter.png");
+}
+
+.laser {
+	content: url("laser.png");
+}
+
+.boom {
+	content:url("boom.png");
+}
+.results {
+	color:brown;
+	margin-top: 1px;
+
+}
+.yourScore{
+	color:blueviolet;
+	margin-bottom: 1px;
+}
